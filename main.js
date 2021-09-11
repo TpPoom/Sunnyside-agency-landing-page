@@ -54,6 +54,8 @@ const img1 = document.getElementById("img1");
 const img2 = document.getElementById("img2");
 const img3 = document.getElementById("img3");
 const img4 = document.getElementById("img4");
+const img5 = document.getElementById("img5");
+const img6 = document.getElementById("img6");
 
 function myFunction(x) {
     if (x.matches) {
@@ -61,6 +63,8 @@ function myFunction(x) {
         img2.src = "./images/mobile/image-gallery-orange.jpg"
         img3.src = "./images/mobile/image-gallery-cone.jpg"
         img4.src = "./images/mobile/image-gallery-sugar-cubes.jpg"
+        img5.src = "./images/mobile/image-graphic-design.jpg"
+        img6.src = "./images/mobile/image-photography.jpg"
     }
 }
 

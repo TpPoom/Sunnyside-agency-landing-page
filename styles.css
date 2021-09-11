@@ -171,7 +171,7 @@ header {
 }
 
 .bg {
-    height: 600px;
+    height: 10%;
 }
 
 .colorBg {
@@ -188,10 +188,6 @@ header {
     gap: 1.2em;
 }
 
-.colorBgGreen {
-    background: url(./images/desktop/image-graphic-design.jpg) center/cover no-repeat;
-}
-
 .greenText h3 {
     font-size: 27px;
     font-weight: 900;
@@ -202,10 +198,6 @@ header {
     color: var(--Dark-moderate-cyan);
     letter-spacing: -0.05em;
     line-height: 1.5em;
-}
-
-.colorBgBlue {
-    background: url(./images/desktop/image-photography.jpg) center/cover no-repeat;
 }
 
 .blueText h3 {
