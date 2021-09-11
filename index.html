@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./m-styles.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar p-0">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="./images/logo.svg" alt="logo">
+      </a>
+      <ul class="nav justify-content-end nav-menu">
+        <li class="nav-item">
+          <a class="nav-link text-light navMargin navText" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light navMargin navText" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light navMargin navText" href="#">Projects</a>
+        </li>
+        <li class="nav-item contactBtn">
+          <a class="nav-link contact navMargin" href="#">CONTACT</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <div class="heading">
+      <h1 class="headingText text-center">WE ARE CREATIVES</h1>
+      <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+    </div>
+  </header>
+  <section>
+    <div class="row g-0">
+      <div class="col-6 colText colTextY">
+        <h1>Transform your<br>brand</h1>
+        <p>We are a full-service creative agency specializing inhelping brands grow fast. Engage your clients through
+          compelling visuals that do most of the marketing for you.</p>
+        <a class="learnMoreY" href="#">
+          <h6>LEARN MORE</h6>
+        </a>
+      </div>
+      <div class="col-6 colImg">
+        <img src="./images/desktop/image-transform.jpg" alt="image-transform">
+      </div>
+    </div>
+    <div class="row g-0">
+      <div class="col-6 colImg">
+        <img src="./images/desktop/image-stand-out.jpg" alt="image-transform">
+      </div>
+      <div class="col-6 colText colTextP">
+        <h1>Stand out to the right audience</h1>
+        <p>Using a collaborative formula of designers, researchers, phortographers, videographers, and copywriters,
+          we'll build and extend your brand in digital places.</p>
+        <a class="learnMoreP" href="#">
+          <h6>LEARN MORE</h6>
+        </a>
+      </div>
+    </div>
+    <div class="row g-0 bg">
+      <div class="col-6 colImg colorBg colorBgGreen">
+        <div class="greenText colorText">
+          <h3 class="text-center">Graphic Design</h3>
+          <p class="text-center">Great design makes you memotable. We deliver<br>artwork that underscores your brand
+            message<br>and captures potential clients' attention.</p>
+        </div>
+      </div>
+      <div class="col-6 colImg colorBg colorBgBlue">
+        <div class="blueText colorText">
+          <h3 class="text-center">Phortography</h3>
+          <p class="text-center">Increase your credibility by getting the most<br>stunning, high-quality photos that
+            improve your<br>business image.</p>
+        </div>
+      </div>
+    </div>
+    <div class="client">
+      <h5 class="text-center">
+        CLIENT TESTIMONIALS
+      </h5>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <img class="rounded-circle" src="./images/image-emily.jpg" alt="image-emily" width="75" height="75">
+            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+              always hits.
+            </p>
+            <span>
+              <h5>
+                Emily R.
+              </h5>
+              <p>Marketing Director</p>
+            </span>
+          </div>
+          <div class="col text-center">
+            <img class="rounded-circle" src="./images/image-thomas.jpg" alt="image-emily" width="75" height="75">
+            <p>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying
+              and enjoyable experience.
+            </p>
+            <span>
+              <h5>
+                Thomas S.
+              </h5>
+              <p>Chief Operating Officer</p>
+            </span>
+          </div>
+          <div class="col text-center">
+            <img class="rounded-circle" src="./images/image-jennie.jpg" alt="image-emily" width="75" height="75">
+            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+              recommended!
+            </p>
+            <span>
+              <h5>
+                Jennie F.
+              </h5>
+              <p>Business Owner</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row gx-0">
+      <div class="col-3 colFour gx-0">
+        <img id="img1" src="./images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+      </div>
+      <div class="col-3 colFour gx-0">
+        <img id="img2" src="./images/desktop/image-gallery-orange.jpg" alt="orange">
+      </div>
+      <div class="col-3 colFour gx-0">
+        <img id="img3" src="./images/desktop/image-gallery-cone.jpg" alt="cone">
+      </div>
+      <div class="col-3 colFour gx-0">
+        <img id="img4" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h1 class="text-center">sunnyside</h1>
+    <div class="d-flex flex-row link">
+      <a href="#">About</a>
+      <a class="mx-5" href="#">Services</a>
+      <a href="#">Projects</a>
+    </div>
+    <div class="socials">
+      <a href="#"><img src="./images/icon-facebook.svg" alt=""></a>
+      <a href="#"><img src="./images/icon-instagram.svg" alt=""></a>
+      <a href="#"><img src="./images/icon-twitter.svg" alt=""></a>
+      <a href="#"><img src="./images/icon-pinterest.svg" alt=""></a>
+    </div>
+  </footer>
+
+
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+    </div>-->
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
